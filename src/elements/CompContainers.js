@@ -20,3 +20,14 @@ export const PortBody = styled(HeaderContainer)`
     background-color: lightsalmon;
     grid-area: port;
 `;
+
+export const FooterContainer = styled(HeaderContainer)`
+    grid-area: foot;
+`;
+
+export const PhotosContainer = styled(HeaderContainer)`
+    grid-area: photos;
+    display: flex;
+    background-color: whitesmoke;
+    flex-flow: row wrap;
+`;

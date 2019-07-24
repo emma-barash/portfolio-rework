@@ -13,9 +13,11 @@ export const GridPage = styled.div`
     grid-template-rows: repeat(4, auto);
     grid-template-areas: 
         "h h h h"
+        "nb photos photos photos"
         "nb port port port"
         "nb port port port"
         "nb port port port"
         "nb port port port"
+        "foot foot foot foot"
     ;
 `;

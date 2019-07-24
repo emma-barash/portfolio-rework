@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './Header.js';
 import Nav from './Nav.js';
+import Footer from './Footer.js';
+import Photos from './Photos.js';
 import { 
     GridPage,
     PortBody 
@@ -9,11 +11,13 @@ import {
 const Portfolio = () => {
     return (
         <GridPage>
-            <Header />
+                <Header />
             <Nav />
+            <Photos />
             <PortBody>
                 Portfolio Body
             </PortBody>
+            <Footer />
         </GridPage>
     );
 };

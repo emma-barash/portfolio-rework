@@ -8,8 +8,6 @@ import { Switch, Route } from 'react-router-dom';
 const App = () => {
     return (
         <div>
-           {/* <Header />
-           <Nav /> */}
            <Switch>
                <Route exact path="/" component={ Portfolio } />
            </Switch>

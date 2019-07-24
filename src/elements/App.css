@@ -1,4 +1,9 @@
 *{
     box-sizing: border-box;
-    font-family: Georgia;
+    font-family: Chap;
+}
+
+@font-face{
+    src: url('./Chapaza.ttf');
+    font-family: Chap;
 }
