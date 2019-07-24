@@ -1,10 +1,11 @@
 import React from 'react';
+import { HeaderContainer } from '../elements/index.js';
 
 const Header = () => {
     return (
-        <div>
+        <HeaderContainer>
             Hola Header
-        </div>
+        </HeaderContainer>
     );
 };
 
