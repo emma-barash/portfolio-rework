@@ -7,3 +7,7 @@
     src: url('./Chapaza.ttf');
     font-family: Chap;
 }
+img{
+    height: 400px;
+    width: 400px;
+}
