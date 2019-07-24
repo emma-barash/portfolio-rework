@@ -1,6 +1,6 @@
 import React from 'react';
-import Satoko from '../elements/photos/Satoko.png';
 import Zoom from 'react-reveal';
+import Emma from '../elements/photos/portImageCopy.jpg';
 import { 
     PhotosContainer,
     Img
@@ -9,8 +9,8 @@ import {
 const Photos = () => {
     return (
         <PhotosContainer>
-            <Zoom duration={6000}>
-                <Img src={ Satoko } alt="Satoko's Online Gallery" />
+            <Zoom>
+                <Img src={ Emma } alt="Emma Barash" />
             </Zoom>
         </PhotosContainer>
     );

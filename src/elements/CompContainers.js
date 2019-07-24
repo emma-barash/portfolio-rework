@@ -12,6 +12,9 @@ export const NavBar = styled(HeaderContainer)`
     background-color: lightcoral;
     padding: 0;
     grid-area: nb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 `;
 
 export const PortBody = styled(HeaderContainer)`

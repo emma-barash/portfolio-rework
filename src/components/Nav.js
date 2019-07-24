@@ -7,9 +7,10 @@ import {
 const Nav = () => {
     return (
         <NavBar>
-            <Link><h3>About Me</h3></Link>
-            <Link to="/projects"><h3>Projects</h3></Link>
-            <Link><h3>Contact</h3></Link>
+            <Link className="link"><h3>About Me</h3></Link>
+            <Link to="/projects" className="link"><h3>Projects</h3></Link>
+            <Link className="link"><h3>Contact</h3></Link>
+            <Link to="/" className="link"><h3>Home</h3></Link>
         </NavBar>
     );
 };

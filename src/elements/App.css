@@ -7,7 +7,18 @@
     src: url('./Chapaza.ttf');
     font-family: Chap;
 }
+
 img{
     height: 400px;
     width: 400px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s linear;
+}
+
+.link:hover{
+    color: white;
 }

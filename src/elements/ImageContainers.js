@@ -8,7 +8,13 @@ export const Img = styled.img`
     height: 300px;
     margin: 10px;
     transition: all 0.3s ease-in-out;
+`;
+
+export const ClickImg = styled(Img)`
+    transition: all 0.3s ease-in-out;
     &:hover{
-        padding: 15px;
-    }
+            padding: 15px;
+            opacity: 0.2;
+            cursor: pointer;
+        }
 `;
