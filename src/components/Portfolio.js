@@ -1,14 +1,19 @@
 import React from 'react';
 import Header from './Header.js';
 import Nav from './Nav.js';
-import { GridPage } from '../elements/index.js';
+import { 
+    GridPage,
+    PortBody 
+} from '../elements/index.js';
 
 const Portfolio = () => {
     return (
         <GridPage>
             <Header />
             <Nav />
-            Portfolio Body
+            <PortBody>
+                Portfolio Body
+            </PortBody>
         </GridPage>
     );
 };
