@@ -1,5 +1,5 @@
 import React from 'react';
-import Zoom from 'react-reveal';
+import Zoom from 'react-reveal/Zoom';
 import Satoko from '../elements/photos/Satoko.png';
 import { 
     PhotosContainer,
@@ -9,7 +9,7 @@ import {
 const ProjectPhotos = () => {
     return (
         <PhotosContainer>
-            <Zoom duration={6000}>
+            <Zoom>
                 <ClickImg src={ Satoko } alt="Satoko's Online Gallery" />
             </Zoom>
         </PhotosContainer>

@@ -11,6 +11,7 @@ export const GridPage = styled.div`
     background-image: linear-gradient(white, white);
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
     grid-template-areas: 
         "h h h h"
         "nb photos photos photos"

@@ -4,23 +4,23 @@ import Nav from './Nav.js';
 import Footer from './Footer.js';
 import ProjectPhotos from './ProjectPhotos.js';
 import Photos from './Photos.js';
-import { 
+import {
     GridPage,
-    PortBody 
+    PortBody
 } from '../elements/index.js';
 
 
 const Projects = () => {
     return (
         <GridPage>
-        <Header />
-    <Nav />
-    <ProjectPhotos />
-    <PortBody>
-        Portfolio Body
-    </PortBody>
-    <Footer />
-</GridPage>
+            <Header />
+            <Nav />
+            <ProjectPhotos />
+            <PortBody>
+                Portfolio Body
+            </PortBody>
+            <Footer />
+        </GridPage>
     );
 };
 

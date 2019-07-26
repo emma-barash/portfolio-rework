@@ -1,5 +1,5 @@
 import React from 'react';
-import Zoom from 'react-reveal';
+import Zoom from 'react-reveal/Zoom';
 import Emma from '../elements/photos/portImageCopy.jpg';
 import { 
     PhotosContainer,
@@ -10,7 +10,7 @@ const Photos = () => {
     return (
         <PhotosContainer>
             <Zoom>
-                <Img src={ Emma } alt="Emma Barash" />
+                <img src={ Emma } alt="Emma Barash" />
             </Zoom>
         </PhotosContainer>
     );

@@ -11,7 +11,7 @@ import {
 const Portfolio = () => {
     return (
         <GridPage>
-                <Header />
+            <Header />
             <Nav />
             <Photos />
             <PortBody>
