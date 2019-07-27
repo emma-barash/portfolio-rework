@@ -1,4 +1,5 @@
 import React from 'react';
+import Zoom from 'react-reveal/Zoom';
 import { Link } from 'react-router-dom';
 import { 
     NavBar 
@@ -7,10 +8,12 @@ import {
 const Nav = () => {
     return (
         <NavBar>
-            <Link className="link"><h3>About Me</h3></Link>
-            <Link to="/projects" className="link"><h3>Projects</h3></Link>
-            <Link className="link"><h3>Contact</h3></Link>
-            <Link to="/" className="link"><h3>Home</h3></Link>
+            <Zoom>
+                <Link className="link"><h3>About Me</h3></Link>
+                <Link to="/projects" className="link"><h3>Projects</h3></Link>
+                <Link className="link"><h3>Contact</h3></Link>
+                <Link to="/" className="link"><h3>Home</h3></Link>
+            </Zoom>
         </NavBar>
     );
 };
