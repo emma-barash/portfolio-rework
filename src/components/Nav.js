@@ -9,7 +9,7 @@ const Nav = () => {
     return (
         <NavBar>
             <Zoom>
-                <Link className="link"><h3>About Me</h3></Link>
+                <Link to="/about"    className="link"><h3>About Me</h3></Link>
                 <Link to="/projects" className="link"><h3>Projects</h3></Link>
                 <Link to="/contact"  className="link"><h3>Contact </h3></Link>
                 <Link to="/"         className="link"><h3>Home    </h3></Link>
