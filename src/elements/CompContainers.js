@@ -9,7 +9,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const NavBar = styled(HeaderContainer)`
-    background-color: lightcoral;
+    background-image: linear-gradient(rgb(255, 160, 122, 0.4), rgb(255, 160, 122, 0.6));
     padding: 0;
     grid-area: nb;
     display: flex;
