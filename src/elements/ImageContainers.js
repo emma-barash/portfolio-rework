@@ -18,3 +18,14 @@ export const ClickImg = styled(Img)`
             cursor: pointer;
         }
 `;
+
+export const WideImg = styled.img`
+    margin-left: 10px;
+    /* margin-top: 10%; */
+    width: 700px;
+    height: 400px;
+`;
+
+export const SkinnyImg = styled(WideImg)`
+    width: 300px;
+`;
