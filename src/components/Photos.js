@@ -21,10 +21,16 @@ class Photos extends Component {
 
     render() {
         const { show } = this.state
+        const styles = {
+            div: {
+                textAlign: 'center',
+                margin: 'auto'
+            }
+        }
         return (
-            <PhotosContainer>
+            <PhotosContainer style={ styles.div }>
                 <Zoom when={ show }>
-                    <img src={Emma} alt="Emma Barash" />
+                    <img src={ Emma } alt="Emma Barash" />
                 </Zoom>
             </PhotosContainer>
         );

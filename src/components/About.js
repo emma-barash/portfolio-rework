@@ -13,7 +13,6 @@ const About = () => {
            <GridPage>
             <Header />
             <Nav />
-            {/* <ProjectPhotos /> */}
             <PortBody>
                 About Moi!
             </PortBody>
