@@ -15,7 +15,7 @@ const About = () => {
             <Nav />
             {/* <ProjectPhotos /> */}
             <PortBody>
-                About Me!
+                About Moi!
             </PortBody>
             <Footer />
         </GridPage>
